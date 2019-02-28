@@ -1,34 +1,54 @@
-.font-style{
-    font-size:12px;
+.font-style {
+    font-size: 12px;
     color: white;
     font-weight: 500;
     font-family: sans-serif;
 }
-.main-color{
+
+.main-color {
     background-color: #a5c926;
 }
-.nav-top-info{
-    float: left;
-    
-    
+
+.color {
+    color: #a5c926;
 }
-.nav-social{
+
+.nav-top-info {
+    float: left;
+
+
+}
+
+.nav-social {
     float: right;
 }
-.social-link{
+
+.social-link {
     height: 50%;
 }
-.bg-color{
+
+.bg-color {
     background-color: #f8f9fa;
 }
-.zero{
-/*
-    height: 25px;
-    width: 25px;
-*/
+
+.zero {
+
     padding: 3px 8px;
     font-size: 12px;
     border-radius: 50%;
-    background-color: orange;
+    background-color: #a5c926;
     text-align: center;
+}
+
+.back-image {
+    background-image: url(../images/background1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-intro {
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px 0px;
+    
 }
