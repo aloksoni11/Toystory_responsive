@@ -50,8 +50,14 @@
     background-color: white;
     border-radius: 20px;
     padding: 50px 0px;
-    
+
 }
-.zindex{
-    z-index: 150px;
+
+.product-item {
+    border-radius: 8px;
+    box-shadow: 0px 2px 20px 1px #ccb6b694;
+}
+
+.product-item:hover {
+    box-shadow: 0px 5px 20px 1px #ccb6b694;
 }
