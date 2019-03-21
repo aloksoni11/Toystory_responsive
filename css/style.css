@@ -1,5 +1,5 @@
 * {
-    font-family:'Varela Round', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .font-style {
@@ -63,8 +63,8 @@
 }
 
 .seeall {
-    background-image: url(https://uploads-ssl.webflow.com/5badda2935e11303a89a461e/5baf79eb570913b9781a96f2_arrow-right-mini-icon.svg);
-    background-repeat: no-repeat;
+    background-image: url(https: //uploads-ssl.webflow.com/5badda2935e11303a89a461e/5baf79eb570913b9781a96f2_arrow-right-mini-icon.svg);
+        background-repeat: no-repeat;
     background-position: right;
     background-size: 15px;
     font-size: 14px;
@@ -89,4 +89,36 @@ strong {
 .line {
     width: 30%;
     height: 2px;
+}
+
+.bg-image {
+    background-image: url(../images/_side-image-01.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.textbox {
+    width: 400px;
+    border-radius: 28px;
+    font-family: verdana;
+    font-size: 18px;
+}
+
+.border {
+    box-shadow: 0px 2px 17px 1px darkgray;
+    background-color: #fff;
+    padding: 35px 35px 35px 0px;
+    border-radius: 20px;
+}
+
+.intsa {
+    border-radius: 20px;
+}
+
+a {
+    color: white;
+
 }
