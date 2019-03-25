@@ -21,9 +21,12 @@
     float: left;
 }
 
+
+/*
 .nav-social {
     float: right;
 }
+*/
 
 .social-link {
     height: 50%;
@@ -64,7 +67,7 @@
 
 .seeall {
     background-image: url(https: //uploads-ssl.webflow.com/5badda2935e11303a89a461e/5baf79eb570913b9781a96f2_arrow-right-mini-icon.svg);
-        background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: right;
     background-size: 15px;
     font-size: 14px;
@@ -101,7 +104,7 @@ strong {
 }
 
 .textbox {
-    width: 400px;
+    width: 100%;
     border-radius: 28px;
     font-family: verdana;
     font-size: 18px;
@@ -118,9 +121,14 @@ strong {
     border-radius: 20px;
 }
 
-/*
-a {
-    color: white;
 
+.subscribe-icon {
+    height: 64px;
+    width: 64px;
 }
-*/
+@media screen and (min-width: 768px) {
+   .toy {
+    position:absolute;
+    bottom: 12px;
+ }
+}
